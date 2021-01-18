@@ -1,0 +1,12 @@
+local Blue = script.Parent
+
+ while true do
+  Blue.Color = Color3.fromRGB(255, 85, 0)
+  wait(1)
+  Blue.Color = Color3.fromRGB(85, 0, 255)
+  wait(1)
+  Blue.Color = Color3.fromRGB(0, 170, 255)
+  wait(1)
+  Blue.Color = Color3.fromRGB(85, 170, 127)
+  wait(1)
+ end
